@@ -3,7 +3,7 @@ name = "prediction-system"
 version = "0.1.0"
 description = ""
 authors = ["Russ Mustafoev <you@example.com>"]
-package-mode = false
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
