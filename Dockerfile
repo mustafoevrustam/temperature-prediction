@@ -19,7 +19,7 @@ RUN apt-get update \
         && rm -rf /var/lib/apt/lists/*
 
 # Copy only the necessary files for Poetry installation
-COPY pyproject.toml poetry.lock ./
+COPY pyproject.toml ./
 
 # Install Poetry and project dependencies
 RUN pip install --no-cache-dir poetry \
