@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prediction-system"
+version = "0.1.0"
+description = ""
+authors = ["Russ Mustafoev <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+torch = "^2.3.0"
+scikit-learn = "^1.4.2"
+matplotlib = "^3.8.4"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
